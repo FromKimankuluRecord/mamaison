@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGENCE IMMO</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+     
+     <!-- custom css file link -->
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        
+         <nav class="navbar nav-1">
+            <section class="flex">
+                <a href="home.html" class="logo"><i class="fa-solid fa-house"></i></i>Mamaison</a>
+
+
+                <ul>
+                    <li><a href="#">Publier une propriété<i class="fas fa-paper-plane"></i></a></li>
+                </ul>
+            </section>
+        </nav>
+
+        <nav class="navbar nav-2">
+            <section class="flex">
+                <div id="menu-btn" class="fas fa-bars"></div>
+                
+                
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Reserver<i class="fas fa-angle-down"></i></a>
+                            <ul>
+                                <li><a href="#">Appartement</a></i></li>
+                                 <li><a href="#">Flat</a></li>
+                                 <li><a href="#">Boutique</a></li>
+                                 <li><a href="#">Prêt à déménager</a></li>
+                                 <li><a href="#">Meublé</a></li>
+                            </ul>
+                        </li>
+                          <li><a href="#">Location<i class="fas fa-angle-down"></i></a>
+                            <ul>
+                                <li><a href="#">Publier un logement</a></i></li>
+                                <li><a href="#">Tableau de bord</a></i></li>
+                            </ul>
+                        </li>
+                          <li><a href="#">Journalière</i></a>
+                            <ul>
+                                <li><a href="#">Maison</a></li>
+                                 <li><a href="#">Flat</a></li>
+                                 <li><a href="#">Boutique</a></li>
+                            </ul>
+                        </li>
+                         <li><a href="#">Chambre<i class="fas fa-angle-down"></i></a>
+                            <ul>
+                                <li><a href="apropos.html">Apropos</a></i></li>
+                                <li><a href="contact.html">Contact</a></i></li>
+                                <li><a href="contact.html#faq">FAQ</a></i></li>
+                                 
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <ul>
+                    <li><a href="#">S'enresgitrer <i class="far fa-heart"></i></a></li>
+                    <li><a href="#">Compte <i class="fas fa-angle-down"></i></a>
+                         <ul>
+                            <li><a href="Se connecter.html">Se connecter</a></li>
+                            <li><a href="S'enregistrer">Se connecter</a></li>
+                        </ul>
+                    </li>
+                   
+                </ul>
+               
+            </section>
+
+        </nav>
+        
+    </header>
+
+   
+
+    <!-- home section ends -->
+
+    <!-- services section starts -->
+    <div class="home">
+
+        <section class="center">
+
+            <form action="search.html" method="post">
+                <h3>Trouvez votre maison idéale</h3>
+                <div class="box">
+                    <p>Trouvez l'emplacement <span>*</span></p>
+                    <input type="text" name="location" required maxlength="50"
+                    placeholder="Entrez le nom de la ville" class="input">
+                </div>
+                <div class="flex">
+                     <div class="box">
+                        <p>Type de logement<span>*</span></p>
+                        <select name="type" class="input" required>
+                            <option value="flat">Flat</option>
+                            <option value="Chambre-meublée">Chambre-meublée</option>
+                            <option value="Appartement">Appartement</option>
+                        </select>
+                    </div>
+                    <div class="box">
+                         <p>Nombre de pièce<span>*</span></p>
+                         <select name="type" class="input" required>
+                            <option value="1">1 Pièce</option>
+                            <option value="2">2  Pièces</option>
+                            <option value="3">3  Pièces</option>
+                            <option value="4">4  Pièces</option>
+                            <option value="5">5  Pièces</option>
+                            <option value="6">6  Pièces</option>
+                            <option value="7">7  Pièces</option>
+                            <option value="8">8  Pièces</option>
+                            <option value="9">9  Pièces</option>
+                        </select>
+                      </div>
+                      <div class="box">
+                         <p>Budget minimum<span>*</span></p>
+                        <select name="minimum" class="input" required>
+                            <option value="5000000">0 Dhs</option>
+                            <option value="1000000">150 Dhs</option>
+                            <option value="1000000">200 Dhs</option>
+                            <option value="2000000">250 Dhs</option>
+                            <option value="3000000">300 Dhs</option>
+                            <option value="4000000">350 Dhs</option>
+                            <option value="4000000">400 Dhs</option>
+                            <option value="6000000">550 Dhs</option>
+                            <option value="7000000">600 Dhs</option>
+                            <option value="8000000">750 Dhs</option>
+                            <option value="9000000">800 Dhs</option>
+                            <option value="10000000">850 Dhs</option>
+                            <option value="20000000">900 Dhs</option>
+                            <option value="30000000">950 Dhs</option>
+                            <option value="40000000">1000 Dhs</option>
+                            <option value="50000000">1050 Dhs</option>
+                            <option value="60000000">1100 Dhs</option>
+                            <option value="70000000">1150 Dhs</option>
+                            <option value="80000000">1200 Dhs</option>
+                            <option value="100000000">1250 Dhs</option>
+                            <option value="150000000">1300 Dhs</option>
+                            <option value="200000000">1350 Dhs</option>
+                        </select>
+                      </div>
+                      <div class="box">
+                        <p>Budget maximum <span>*</span></p>
+                        <select name="maximum" class="input" required>
+                            <option value="5000000">0 Dhs</option>
+                            <option value="1000000">300 Dhs</option>
+                            <option value="2000000">350 Dhs</option>
+                            <option value="3000000">400 Dh</option>
+                            <option value="4000000">450 Dhs</option>
+                            <option value="4000000">500 Dhs</option>
+                            <option value="5000000">550 Dhs</option>
+                            <option value="6000000">600 Dhs</option>
+                            <option value="7000000">750 Dhs</option>
+                            <option value="9000000">800 Dhs</option>
+                            <option value="10000000">950 Dhs</option>
+                            <option value="20000000">1000 Dhs</option>
+                            <option value="30000000">1050 Dhs</option>
+                            <option value="40000000">1100 Dhs</option>
+                            <option value="50000000">1150 Dhs</option>
+                            <option value="60000000">1200 Dhs</option>
+                            <option value="70000000">1250 Dhs</option>
+                            <option value="80000000">1300 Dhs</option>
+                            <option value="100000000">1350 Dhs</option>
+                            <option value="150000000">1400 Dhs</option>
+                            <option value="200000000">1450 Dhs</option>
+                        </select>
+                      </div>
+                    </div>
+                    <input type="soumettre" value="rechercher une propriété" name="rechercher" class="btn">
+                </form>
+            </section>
+        </div>
+
+    <!-- home section ends -->
+
+    <!-- services sections starts -->
+
+    <section class="services">
+        
+        <h1 class="heading">Nos services</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/icon-1.png" alt="">
+                <h3>Location journalière chambre meublée</h3>
+                <p>Location Journalière de chambre meublée. Bien équipé et bien placé.</p>
+            </div>
+
+            <div class="box">
+                <img src="images/icon-2.png" alt="">
+                <h3>Location journalière appartement meublée</h3>
+                <p>Location Journalière d'un appartement meublée. Bien équipé et bien placé.</p>
+            </div>
+
+            <div class="box">
+                <img src="images/icon-3.png" alt="">
+                <h3>Location journalière garçonnière meublée</h3>
+                <p>Location journalière de garçonnière meublée. Bien équipé et bien placé</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- services section ends -->
+    
+    <!-- listings section starts -->
+
+    <section class="listings">
+
+        <h1 class="heading"> Dernières annonces</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="admin">
+                    <h3>K</h3>
+                    <div>
+                        <p>Kimankulu record</p>
+                        <span>11-05-2024</span>
+                    </div>
+                </div>
+                
+                <div class="thumb">
+                <p class="total-images"><i class="far fa-image"></i><span>4</span></p>
+                <p class="type"><span>flat</span><span>Louer</span></p>
+                <form action="" method="post" class="save">
+                    <button type="soumettre" name="save" class="far fa-heart" ></button>
+                </form>
+                <img src="images/house-img-1.webp" alt="">
+                </div>
+                <h3 class="name">Appartement et flat modernes</h3>
+                <p class="location"><i class="fas fa-map-marker-alt"></i><span>Casablanca, Marakesh, Fez</span></p>
+                <div class="flex">
+                    <p><i class="fas fa-bed"></i><span>3</span></p>
+                    <p><i class="fas fa-bath"></i><span>2</span></p>
+                    <p><i class="fas fa-maximize"></i><span>750sqft</span></p>
+                </div>
+                <a href="view_property.html" class="btn">view_property</a>
+            </div>
+            
+            <div class="box">
+                 <div class="admin">
+                    <h3>K</h3>
+                    <div>
+                        <p>Kimankulu record</p>
+                        <span>11-05-2024</span>
+                    </div>
+                </div>
+                <div class="thumb">
+                <p class="total-images"><i class="far fa-image"></i><span>4</span></p>
+                <p class="type"><span>flat</span><span>Louer</span></p>
+                <form action="" method="post" class="save">
+                    <button type="soumettre" name="save" class="far fa-heart" ></button>
+                </form>
+                <img src="images/house-img-2.webp" alt="">
+                </div>
+                <h3 class="name">Appartement et flat modernes</h3>
+                <p class="location"><i class="fas fa-map-marker-alt"></i><span>Casablanca, Marakesh, Fez</span></p>
+                <div class="flex">
+                    <p><i class="fas fa-bed"></i><span>3</span></p>
+                    <p><i class="fas fa-bath"></i><span>2</span></p>
+                    <p><i class="fas fa-maximize"></i><span>750sqft</span></p>
+                </div>
+                <a href="view_property.html" class="btn">view_property</a>
+            </div>
+
+            
+            <div class="box">
+                 <div class="admin">
+                    <h3>K</h3>
+                    <div>
+                        <p>Kimankulu record</p>
+                        <span>11-05-2024</span>
+                    </div>
+                </div>
+                <div class="thumb">
+                <p class="total-images"><i class="far fa-image"></i><span>4</span></p>
+                <p class="type"><span>flat</span><span>Louer</span></p>
+                <form action="" method="post"  class="save">
+                    <button type="soumettre" name="save" class="far fa-heart" ></button>
+                </form>
+                <img src="images/house-img-3.jpg" alt="">
+                </div>
+                <h3 class="name">Appartement et flat modernes</h3>
+                <p class="location"><i class="fas fa-map-marker-alt"></i><span>Casablanca, Marakesh, Fez</span></p>
+                <div class="flex">
+                    <p><i class="fas fa-bed"></i><span>3</span></p>
+                    <p><i class="fas fa-bath"></i><span>2</span></p>
+                    <p><i class="fas fa-maximize"></i><span>750sqft</span></p>
+                </div>
+                <a href="view_property.html" class="btn">view_property</a>
+            </div>
+        </div>
+        
+        <div style="margin-top: 2rem; text-align:center;">
+            <a href="listings.html" class="inline-btn">Voir tout</a>
+
+        </div>
+    </section>
+
+    <!-- listings section ends -->
+
+    
+    
+    <!-- footer section starts -->
+
+    <footer class="footer">
+
+        <section class="flex">
+            
+            <div class="box">
+                <a href="tel:0615416192"><i class="fas fa-phone"></i><span>0615416192</span></a>
+                <a href="tel:311456871"><i class="fa-brands fa-whatsapp"></i><span>0615416192</span></a>
+                <a href="mailto:moctarmalak@gmail.com"><i class="fas fa-envelope"></i><span>mocatarmalak@gmail.com</span></a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i><span>Casablanca 20000, Maroc </span></a>
+            </div>
+            <div class="box">
+                <a href="accueil.html"><span>Accueil</span></a>
+                <a href="apropos.html"><span>Apropos</span></a>
+                <a href="contact.html"><span>Contact</span></a>
+                <a href="inscription.html"><span>inscription</span></a>
+                <a href="#"><span>propriété sauvegardée</span></a>
+            </div>
+             <div class="box">
+                <a href="#"><span>facebook</span><i class="fab fa-facebook"></i></a>
+                <a href="#"><span>twitter</span><i class="fab fa-linkedin"></i></a>
+                <a href="#"><span>linkedin</span><i class="fab fa-twitter"></i></a>
+                <a href="#"><span>linkedin</span><i class="fab fa-instagram"></i></a>
+            </div>
+        
+        </section>
+
+        <div class="credit">&copy; copyright @ 2022  <span> Mr. Kimankulu</span> tout droits reservé!</div>
+
+    </footer>
+
+
+
+
+
+<!-- custom js file link -->     
+ <script src="script.js"></script> 
+    
+</body>
+</html>
